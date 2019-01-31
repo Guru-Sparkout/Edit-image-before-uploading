@@ -1,4 +1,4 @@
-# Edit image before uploading
+# Edit Image Before Uploading
 
 # About
 
