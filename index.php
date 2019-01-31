@@ -30,7 +30,7 @@
             #design{
                 width: 242px;
                 margin: 0 auto;
-                height: 53px;
+                height: 70px;
                 background: #7f6969;
                 color : white;
                 padding: 30px;
@@ -41,10 +41,10 @@
         </style>
     </head>
     <body>  
-
+		<center><h3>Edit Image Before Uploading</h3></center>
         <div id="design">
-           
                 <div id="controls" style="margin-top: -16px;">
+				<input type='file' onchange="readURL(this);" /><br><br><br>
                     <input type="text" value="Guru" id="textbox" style="width: 72px;" placeholder="Enter Text"/>&nbsp;&nbsp;			
                     <input id="slider" type ="range" min ="12" style="width: 58px;" max="50" value ="0"/>&nbsp;&nbsp;
                     <select id="font">
@@ -56,7 +56,7 @@
                         <option value="green">green</option>
 
                     </select>
-                    &nbsp;&nbsp;<input type='file' onchange="readURL(this);" /><br>
+                    &nbsp;&nbsp;
                     <input type="button" value="Circle" id="circle" />&nbsp;&nbsp;
                     <input type="button" value="Box" id="rect" />
                 </div>	  
